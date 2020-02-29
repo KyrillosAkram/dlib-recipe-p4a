@@ -1,0 +1,365 @@
+02-26 01:14:57.082   692   692 D Zygote  : CtrlSocket libc.so ctrl_sockets_set_addr pfunc is not exist!
+02-26 01:14:57.084  1202  2528 I ActivityManager: Start proc 692:org.test.shepherdcrook/u0a266 for activity org.test.shepherdcrook/org.kivy.android.PythonActivity
+02-26 01:14:57.084  1202  2528 D ActivityManager: Delay resumeKeyDispatchingLocked() to avoid deadlock.
+02-26 01:14:57.085   692   692 I art     : Late-enabling -Xcheck:jni
+02-26 01:14:57.091  2074  2074 D ActivityThread: ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@9367e02
+02-26 01:14:57.107   692   692 D ActivityThread: ActivityThread,attachApplication
+02-26 01:14:57.108  1202  2520 D ActivityManager: ActivityManagerService,attachApplication,callingPid = 692
+02-26 01:14:57.114  1202  2520 I libPerfService: perfSetFavorPid - pid:692, 2b4
+02-26 01:14:57.117  1202  1518 I libPerfService: [perfNotifyAppState] pack:org.test.shepherdcrook, com:org.kivy.android.PythonActivity, state:1, pid:692, last_boost_tid:692
+02-26 01:14:57.118  2074  2074 D MyLayout: onWindowFocusChanged ...stop..refesh
+02-26 01:14:57.159   692   692 D HwCust  : Create obj success use class android.content.res.HwCustHwResourcesImpl
+02-26 01:14:57.163   692   692 W ActivityThread: Application org.test.shepherdcrook can be debugged on port 8100...
+02-26 01:14:57.174   692   692 D ActivityThread: BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{42d00ed org.test.shepherdcrook}}
+02-26 01:14:57.174   692   692 V ActivityThread: Handling launch of ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}} startsNotResumed=false
+02-26 01:14:57.178   692   692 V ActivityThread: ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}}: app=android.app.Application@c65bee9, appName=org.test.shepherdcrook, pkg=org.test.shepherdcrook, comp={org.test.shepherdcrook/org.kivy.android.PythonActivity}, dir=/data/app/org.test.shepherdcrook-1/base.apk
+02-26 01:14:57.179  2074  2404 D Surface : Surface::disconnect(this=0x7f6a50bc00,api=1)
+02-26 01:14:57.181   692   692 V HwPolicyFactory: : success to get AllImpl object and return....
+02-26 01:14:57.183  2074  2081 I System  : FinalizerDaemon: finalize objects = 859
+02-26 01:14:57.183  2074  2404 D GraphicBuffer: unregister, handle(0x7f669ae680) (w:720 h:1280 s:720 f:0x1 u:0x000b00)
+02-26 01:14:57.184   692   692 V HwWidgetFactory: : successes to get AllImpl object and return....
+02-26 01:14:57.185  2074  2404 I [MALI][Gralloc]: [-]r_hnd(0x7f669ae680), client(41), share_fd(72)
+02-26 01:14:57.185  2074  2404 D GraphicBuffer: unregister, handle(0x7f669b0d40) (w:720 h:1280 s:720 f:0x1 u:0x000b00)
+02-26 01:14:57.187  2074  2404 I [MALI][Gralloc]: [-]r_hnd(0x7f669b0d40), client(41), share_fd(73)
+02-26 01:14:57.187  2074  2404 D GraphicBuffer: unregister, handle(0x7f669b0fc0) (w:720 h:1280 s:720 f:0x1 u:0x000b00)
+02-26 01:14:57.188   692   692 V ActivityThread: ActivityThread,callActivityOnCreate
+02-26 01:14:57.188   692   692 V PythonActivity: PythonActivity onCreate running
+02-26 01:14:57.188   692   692 V PythonActivity: About to do super onCreate
+02-26 01:14:57.189   692   692 V SDL     : Device: HWMYA-L6737
+02-26 01:14:57.189   692   692 V SDL     : Model: MYA-L22
+02-26 01:14:57.189   692   692 V SDL     : onCreate()
+02-26 01:14:57.189  2074  2404 I [MALI][Gralloc]: [-]r_hnd(0x7f669b0fc0), client(41), share_fd(70)
+02-26 01:14:57.190  2074  2404 D GraphicBuffer: unregister, handle(0x7f7b4f1a60) (w:720 h:1280 s:720 f:0x1 u:0x000b00)
+02-26 01:14:57.190   692   692 V PythonActivity: Did super onCreate
+02-26 01:14:57.190   692   692 V SDL     : getting identifier
+02-26 01:14:57.190   692   692 V SDL     : kind is drawable and name presplash
+02-26 01:14:57.190   692   692 V SDL     : result is 2130771970
+02-26 01:14:57.192  2074  2404 I [MALI][Gralloc]: [-]r_hnd(0x7f7b4f1a60), client(41), share_fd(69)
+02-26 01:14:57.192  2074  2404 D Surface : Surface::disconnect(this=0x7f6a50bc00,api=1)
+02-26 01:14:57.220   692   702 I System  : FinalizerDaemon: finalize objects = 6
+02-26 01:14:57.269   692   692 V SDL     : asked to get string presplash_color
+02-26 01:14:57.269   692   692 V SDL     : getting identifier
+02-26 01:14:57.269   692   692 V SDL     : kind is string and name presplash_color
+02-26 01:14:57.269   692   692 V SDL     : result is 2130968577
+02-26 01:14:57.274   692   692 E MultiWindowProxy: getServiceInstance failed!
+02-26 01:14:57.279   692   708 V PythonActivity: Ready to unpack
+02-26 01:14:57.279   692   708 V PythonActivity: UNPACKING!!! private app
+02-26 01:14:57.279   692   708 V SDL     : asked to get string private_version
+02-26 01:14:57.279   692   692 D ActivityThread: add activity client record, r= ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}} token= android.os.BinderProxy@cda09b3
+02-26 01:14:57.279   692   708 V SDL     : getting identifier
+02-26 01:14:57.279   692   692 V ActivityThread: Performing resume of ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}}
+02-26 01:14:57.279   692   708 V SDL     : kind is string and name private_version
+02-26 01:14:57.279   692   692 V PythonActivity: onResume()
+02-26 01:14:57.279   692   692 V SDL     : onResume()
+02-26 01:14:57.279   692   708 V SDL     : result is 2130968578
+02-26 01:14:57.280   692   708 V PythonActivity: Data version is 1582659009.8182817
+02-26 01:14:57.280   692   692 D ActivityThread: ACT-AM_ON_RESUME_CALLED ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}}
+02-26 01:14:57.280   692   692 V ActivityThread: Resume ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}} started activity: false, hideForNow: false, finished: false
+02-26 01:14:57.280   692   692 V PhoneWindow: DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.PhoneWindow$DecorView{aec3e9c I.E...... R.....ID 0,0-0,0}
+02-26 01:14:57.282   692   692 I HwSecImmHelper: mSecurityInputMethodService is null
+02-26 01:14:57.285   259  3707 I SurfaceFlinger: EventThread Client Pid (692) created
+02-26 01:14:57.286   692   692 D WindowClient: Add to mViews: com.android.internal.policy.PhoneWindow$DecorView{aec3e9c I.E...... R.....ID 0,0-0,0}, this = android.view.WindowManagerGlobal@c7c534
+02-26 01:14:57.287   692   692 D OpenGLRenderer: Dumper init 2 threads <0xe7516680>
+02-26 01:14:57.287   692   692 D OpenGLRenderer: <org.test.shepherdcrook> is running.
+02-26 01:14:57.289   259  3707 I SurfaceFlinger: EventThread Client Pid (692) created
+02-26 01:14:57.289   692   709 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+02-26 01:14:57.289   692   709 D OpenGLRenderer: CanvasContext() 0xe7990000
+02-26 01:14:57.297   692   692 V ActivityThread: Resuming ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}} with isForward=true
+02-26 01:14:57.299   692   692 V PhoneWindow: DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{d5cff5d org.test.shepherdcrook/org.kivy.android.PythonActivity,ident = 0}, this =com.android.internal.policy.PhoneWindow$DecorView{aec3e9c V.E...... R.....ID 0,0-0,0}
+02-26 01:14:57.299   692   692 V ActivityThread: Scheduling idle handler for ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}}
+02-26 01:14:57.300   692   692 D ActivityThread: ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{1bfcb22 token=android.os.BinderProxy@cda09b3 {org.test.shepherdcrook/org.kivy.android.PythonActivity}}
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libssl1.1.so
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libfreetype.so
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_dnn.so
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_mixer.so
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_ttf.so
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_imgcodecs.so
+02-26 01:14:57.301   692   692 V pythonutil: Checking pattern libsqlite3\.so against libmain.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_objdetect.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libSDL2.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libhidapi.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_features2d.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_video.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libpng16.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libffi.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libsqlite3.so
+02-26 01:14:57.302   692   692 V pythonutil: Pattern libsqlite3\.so matched file libsqlite3.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_core.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_ml.so
+02-26 01:14:57.302   692   692 V pythonutil: Checking pattern libsqlite3\.so against libc++_shared.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libdlib.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_videoio.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_flann.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libcrypto1.1.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_calib3d.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_highgui.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_imgproc.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_image.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_photo.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libopencv_stitching.so
+02-26 01:14:57.303   692   692 V pythonutil: Checking pattern libsqlite3\.so against libpython3.7m.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libssl1.1.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libfreetype.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_dnn.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libSDL2_mixer.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libSDL2_ttf.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_imgcodecs.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libmain.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_objdetect.so
+02-26 01:14:57.304   692   692 V pythonutil: Checking pattern libffi\.so against libSDL2.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libhidapi.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_features2d.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_video.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libpng16.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libffi.so
+02-26 01:14:57.305   692   692 V pythonutil: Pattern libffi\.so matched file libffi.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libsqlite3.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_core.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_ml.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libc++_shared.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libdlib.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_videoio.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_flann.so
+02-26 01:14:57.305   692   692 V pythonutil: Checking pattern libffi\.so against libcrypto1.1.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_calib3d.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_highgui.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_imgproc.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libSDL2_image.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_photo.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libopencv_stitching.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libffi\.so against libpython3.7m.so
+02-26 01:14:57.306   692   692 V pythonutil: Checking pattern libpng16\.so against libssl1.1.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libfreetype.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_dnn.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libSDL2_mixer.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libSDL2_ttf.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_imgcodecs.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libmain.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_objdetect.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libSDL2.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libhidapi.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_features2d.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_video.so
+02-26 01:14:57.307   692   692 V pythonutil: Checking pattern libpng16\.so against libpng16.so
+02-26 01:14:57.308   692   692 V pythonutil: Pattern libpng16\.so matched file libpng16.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libffi.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libsqlite3.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_core.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_ml.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libc++_shared.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libdlib.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_videoio.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_flann.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libcrypto1.1.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_calib3d.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_highgui.so
+02-26 01:14:57.308   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_imgproc.so
+02-26 01:14:57.309   692   692 V pythonutil: Checking pattern libpng16\.so against libSDL2_image.so
+02-26 01:14:57.309   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_photo.so
+02-26 01:14:57.309   692   692 V pythonutil: Checking pattern libpng16\.so against libopencv_stitching.so
+02-26 01:14:57.309   692   692 V pythonutil: Checking pattern libpng16\.so against libpython3.7m.so
+02-26 01:14:57.309   692   692 V pythonutil: Checking pattern libssl.*\.so against libssl1.1.so
+02-26 01:14:57.310   692   692 V pythonutil: Pattern libssl.*\.so matched file libssl1.1.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libfreetype.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_dnn.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libSDL2_mixer.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libSDL2_ttf.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_imgcodecs.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libmain.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_objdetect.so
+02-26 01:14:57.310   692   692 V pythonutil: Checking pattern libssl.*\.so against libSDL2.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libhidapi.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_features2d.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_video.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libpng16.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libffi.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libsqlite3.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_core.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_ml.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libc++_shared.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libdlib.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_videoio.so
+02-26 01:14:57.311   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_flann.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libcrypto1.1.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_calib3d.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_highgui.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_imgproc.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libSDL2_image.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_photo.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libopencv_stitching.so
+02-26 01:14:57.312   692   692 V pythonutil: Checking pattern libssl.*\.so against libpython3.7m.so
+02-26 01:14:57.313   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libssl1.1.so
+02-26 01:14:57.313   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libfreetype.so
+02-26 01:14:57.313   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_dnn.so
+02-26 01:14:57.313   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_mixer.so
+02-26 01:14:57.313   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_ttf.so
+02-26 01:14:57.313   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_imgcodecs.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libmain.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_objdetect.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libhidapi.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_features2d.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_video.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libpng16.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libffi.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libsqlite3.so
+02-26 01:14:57.314   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_core.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_ml.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libc++_shared.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libdlib.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_videoio.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_flann.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libcrypto1.1.so
+02-26 01:14:57.315   692   692 V pythonutil: Pattern libcrypto.*\.so matched file libcrypto1.1.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_calib3d.so
+02-26 01:14:57.315   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_highgui.so
+02-26 01:14:57.316   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_imgproc.so
+02-26 01:14:57.316   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_image.so
+02-26 01:14:57.316   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_photo.so
+02-26 01:14:57.316   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libopencv_stitching.so
+02-26 01:14:57.316   692   692 V pythonutil: Checking pattern libcrypto.*\.so against libpython3.7m.so
+02-26 01:14:57.316   692   692 V pythonutil: Loading library: sqlite3
+02-26 01:14:57.320   692   692 V pythonutil: Loading library: ffi
+02-26 01:14:57.322   692   692 V pythonutil: Loading library: png16
+02-26 01:14:57.324   692   692 V pythonutil: Loading library: SDL2
+02-26 01:14:57.333   692   692 V pythonutil: Loading library: SDL2_image
+02-26 01:14:57.336   692   692 V pythonutil: Loading library: SDL2_mixer
+02-26 01:14:57.338   692   692 V pythonutil: Loading library: SDL2_ttf
+02-26 01:14:57.341   692   692 V pythonutil: Loading library: ssl1.1
+02-26 01:14:57.345   692   692 V pythonutil: Loading library: crypto1.1
+02-26 01:14:57.346   692   692 V pythonutil: Loading library: python2.7
+02-26 01:14:57.347   692   692 V pythonutil: Library loading error: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/org.test.shepherdcrook-1/base.apk"],nativeLibraryDirectories=[/data/app/org.test.shepherdcrook-1/lib/arm, /data/app/org.test.shepherdcrook-1/base.apk!/lib/armeabi-v7a, /vendor/lib, /system/lib]]] couldn't find "libpython2.7.so"
+02-26 01:14:57.347   692   692 V pythonutil: Loading library: python3.5m
+02-26 01:14:57.348   692   692 V pythonutil: Library loading error: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/org.test.shepherdcrook-1/base.apk"],nativeLibraryDirectories=[/data/app/org.test.shepherdcrook-1/lib/arm, /data/app/org.test.shepherdcrook-1/base.apk!/lib/armeabi-v7a, /vendor/lib, /system/lib]]] couldn't find "libpython3.5m.so"
+02-26 01:14:57.348   692   692 V pythonutil: Loading library: python3.6m
+02-26 01:14:57.348   692   692 V pythonutil: Library loading error: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/org.test.shepherdcrook-1/base.apk"],nativeLibraryDirectories=[/data/app/org.test.shepherdcrook-1/lib/arm, /data/app/org.test.shepherdcrook-1/base.apk!/lib/armeabi-v7a, /vendor/lib, /system/lib]]] couldn't find "libpython3.6m.so"
+02-26 01:14:57.349   692   692 V pythonutil: Loading library: python3.7m
+02-26 01:14:57.354   692   692 V pythonutil: Loading library: main
+02-26 01:14:57.357   692   692 V pythonutil: Failed to load _io.so or unicodedata.so...but that's okay.
+02-26 01:14:57.358   692   692 V pythonutil: Unsatisfied linker when loading ctypes
+02-26 01:14:57.358   692   692 V pythonutil: Loaded everything!
+02-26 01:14:57.358   692   692 V SDL     : nativeSetupJNI()
+02-26 01:14:57.359   692   692 V SDL     : AUDIO nativeSetupJNI()
+02-26 01:14:57.359   692   692 V SDL     : CONTROLLER nativeSetupJNI()
+02-26 01:14:57.366   692   692 D hidapi  : Initializing Bluetooth
+02-26 01:14:57.366   692   692 D hidapi  : Couldn't initialize Bluetooth, missing android.permission.BLUETOOTH
+02-26 01:14:57.369   692   692 D SurfaceView: checkSurfaceViewlLogProperty get invalid command
+02-26 01:14:57.373   692   692 V PythonActivity: Setting env vars for start.c and Python to use
+02-26 01:14:57.374   692   692 V PythonActivity: Access to our meta-data...
+02-26 01:14:57.375   692   692 I PythonActivity: Surface will NOT be transparent
+02-26 01:14:57.375   692   692 V PythonActivity: onResume()
+02-26 01:14:57.375   692   692 V SDL     : onResume()
+02-26 01:14:57.376   692   692 V InputMethodManager: Not IME target window, ignoring
+02-26 01:14:57.376   692   692 I SurfaceView: updateWindow -- onWindowVisibilityChanged, visibility = 0, this = org.libsdl.app.SDLSurface{5b600a0 VFE...... .F....I. 0,0-0,0}
+02-26 01:14:57.398   692   692 I SurfaceView: updateWindow -- setFrame, this = org.libsdl.app.SDLSurface{5b600a0 VFE...... .F....ID 0,0-720,1144}
+02-26 01:14:57.406   692   709 I OpenGLRenderer: Initialized EGL, version 1.4
+02-26 01:14:57.406   692   692 V SDL     : surfaceCreated()
+02-26 01:14:57.407   692   692 V SDL     : surfaceChanged()
+02-26 01:14:57.407   692   692 V SDL     : pixel format RGB_565
+02-26 01:14:57.407   692   692 V SDL     : Window size: 720x1144
+02-26 01:14:57.407   692   692 V SDL     : Device size: 720x1280
+02-26 01:14:57.414   692   709 D OpenGLRenderer: Created EGL context (0xe7bf65c0)
+02-26 01:14:57.417   692   709 I OpenGLRenderer: Get enable program binary service property (1)
+02-26 01:14:57.417   692   709 I OpenGLRenderer: Initializing program atlas...
+02-26 01:14:57.417   692   709 D ProgramBinary/Service: BpProgramBinaryService.getFileDescriptor
+02-26 01:14:57.418   692   709 D ProgramBinary/Service: BpProgramBinaryService.getProgramMapLen
+02-26 01:14:57.419   692   709 D ProgramBinary/Service: BpProgramBinaryService.getProgramMapArray
+02-26 01:14:57.420   692   709 D ProgramBinary/Service: BpProgramBinaryService.getProgramBinaryLen
+02-26 01:14:57.420   692   709 I OpenGLRenderer: Program binary detail: Binary length is 169616, program map length is 152.
+02-26 01:14:57.420   692   709 I OpenGLRenderer: Succeeded to mmap program binaries. File descriptor is 38, and path is /dev/ashmem�,�����&�.
+02-26 01:14:57.420   692   709 I OpenGLRenderer: No need to use file discriptor anymore, close fd(38).
+02-26 01:14:57.421   692   709 D OpenGLRenderer: Initializing program cache from 0xf7164eac, size = 3
+02-26 01:14:57.423   692   692 V SDL     : nativeResume()
+02-26 01:14:57.423   692   722 V SDL     : Running main function SDL_main from library /data/app/org.test.shepherdcrook-1/lib/arm/libmain.so
+02-26 01:14:57.423   692   709 D OpenGLRenderer: -- init (key = 0x0000000000000000)
+02-26 01:14:57.423   692   722 V PythonActivity: appConfirmedActive() -> preparing loading screen removal
+02-26 01:14:57.424   692   722 V SDL     : nativeRunMain()
+02-26 01:14:57.425   692   722 I python  : Initializing Python for Android
+02-26 01:14:57.426   692   722 I python  : Setting additional env vars from p4a_env_vars.txt
+02-26 01:14:57.426   692   722 I python  : Changing directory to the one provided by ANDROID_ARGUMENT
+02-26 01:14:57.426   692   722 I python  : /data/user/0/org.test.shepherdcrook/files/app
+02-26 01:14:57.426   692   722 I python  : Preparing to initialize python
+02-26 01:14:57.426   692   722 I python  : _python_bundle dir exists
+02-26 01:14:57.426   692   722 I python  : calculated paths to be...
+02-26 01:14:57.426   692   722 I python  : /data/user/0/org.test.shepherdcrook/files/app/_python_bundle/stdlib.zip:/data/user/0/org.test.shepherdcrook/files/app/_python_bundle/modules
+02-26 01:14:57.427   692   722 I python  : set wchar paths...
+02-26 01:14:57.428   692   709 D OpenGLRenderer: -- init (key = 0x0000000000000001)
+02-26 01:14:57.429   692   709 D OpenGLRenderer: -- init (key = 0x0000020000000008)
+02-26 01:14:57.430   692   709 W OpenGLRenderer: load: so=/system/lib/libhwuibp.so
+02-26 01:14:57.430   692   709 W OpenGLRenderer: dlopen failed: library "/system/lib/libhwuibp.so" not found
+02-26 01:14:57.430   692   709 W OpenGLRenderer: Initialize Binary Program Cache: Load Failed
+02-26 01:14:57.430   692   709 D Surface : Surface::connect(this=0xedbbd600,api=1)
+02-26 01:14:57.431   692   709 W libEGL  : [ANDROID_RECORDABLE] format: 1
+02-26 01:14:57.432   692   709 D mali_winsys: new_window_surface returns 0x3000
+02-26 01:14:57.442   692   692 I SurfaceView: Punch a hole(dispatchDraw), w = 720, h = 1144, this = org.libsdl.app.SDLSurface{5b600a0 VFE...... .F...... 0,0-720,1144}
+02-26 01:14:57.472   692   709 I [MALI][Gralloc]: [+]r_hnd(0xf403e660), client(40), share_fd(39)
+02-26 01:14:57.472   692   709 D GraphicBuffer: register, handle(0xf403e660) (w:720 h:1192 s:720 f:0x1 u:0x000b00)
+02-26 01:14:57.475   692   709 D OpenGLRenderer: ProgramCache save to disk, size = 3
+02-26 01:14:57.481   692   692 V SDL     : onWindowFocusChanged(): true
+02-26 01:14:57.482   692   692 V InputMethodManager: onWindowFocus: org.libsdl.app.SDLSurface{5b600a0 VFE...... .F....I. 0,0-720,1144} softInputMode=288 first=true flags=#1810900
+02-26 01:14:57.482   692   692 V InputMethodManager: START INPUT: org.libsdl.app.SDLSurface{5b600a0 VFE...... .F....I. 0,0-720,1144} ic=null tba=android.view.inputmethod.EditorInfo@58a86cc controlFlags=#105
+02-26 01:14:57.488   692   692 I SurfaceView: updateWindow -- UPDATE_WINDOW_MSG, this = Handler (android.view.SurfaceView$1) {ed5bd15}
+02-26 01:14:57.497   692   692 I SurfaceView: updateWindow -- setFrame, this = org.libsdl.app.SDLSurface{5b600a0 VFE...... .F....I. 0,0-720,1144}
+02-26 01:14:57.497   692   692 I SurfaceView: Punch a hole(dispatchDraw), w = 720, h = 1144, this = org.libsdl.app.SDLSurface{5b600a0 VFE...... .F...... 0,0-720,1144}
+02-26 01:14:57.500   692   709 I [MALI][Gralloc]: [+]r_hnd(0xf403e7a0), client(40), share_fd(43)
+02-26 01:14:57.500   692   709 D GraphicBuffer: register, handle(0xf403e7a0) (w:720 h:1192 s:720 f:0x1 u:0x000b00)
+02-26 01:14:57.507  2074  2074 I HwLauncher: Launcher mUnlockScreenRunnbale  getOrientationEnabled false 
+02-26 01:14:57.507  2074  2074 I HwLauncher: Launcher onStop()
+02-26 01:14:57.511  2074  2074 V ActivityThread: Finishing stop of ActivityRecord{15334d token=android.os.BinderProxy@9367e02 {com.huawei.android.launcher/com.huawei.android.launcher.Launcher}}: show=false win=com.android.internal.policy.HwPhoneWindow@77e9131
+02-26 01:14:57.512  2074  2074 V PhoneWindow: DecorView setVisiblity: visibility = 4 ,Parent =ViewRoot{b5cc6dc com.huawei.android.launcher/com.huawei.android.launcher.Launcher,ident = 4}, this =com.android.internal.policy.PhoneWindow$DecorView{caa5a7c I.E...... R......D 0,0-720,1280}
+02-26 01:14:57.512  2074  2074 D ActivityThread: ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@9367e02
+02-26 01:14:57.524   692   722 I python  : Initialized python
+02-26 01:14:57.524   692   722 I python  : AND: Init threads
+02-26 01:14:57.526  2576  2589 I PerfService: PerfServiceNative_getPackName
+02-26 01:14:57.526   692   722 I python  : testing python print redirection
+02-26 01:14:57.526  2576  2589 D GasService: FG app changed: from com.huawei.android.launcher to org.test.shepherdcrook
+02-26 01:14:57.526  2576  2589 D GasService: irregular AudioTrack usage
+02-26 01:14:57.528   692   722 I python  : Android path ['.', '/data/user/0/org.test.shepherdcrook/files/app/_python_bundle/stdlib.zip', '/data/user/0/org.test.shepherdcrook/files/app/_python_bundle/modules', '/data/user/0/org.test.shepherdcrook/files/app/_python_bundle/site-packages']
+02-26 01:14:57.529   692   722 I python  : os.environ is environ({'PATH': '/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ROOT': '/system', 'ANDROID_ASSETS': '/system/app', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'EXTERNAL_STORAGE': '/sdcard', 'ASEC_MOUNTPOINT': '/mnt/asec', 'BOOTCLASSPATH': '/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar:/system/framework/hwpostcamera.jar:/system/framework/hwEmui.jar:/system/framework/hwTelephony-common.jar:/system/framework/hwframework.jar:/system/framework/org.simalliance.openmobileapi.jar:/system/framework/hwaps.jar:/system/framework/hwcustEmui.jar:/system/framework/hwcustTelephony-common.jar:/system/framework/hwcustframework.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/mediatek-telephony-common.jar', 'SYSTEMSERVERCLASSPATH': '/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar:/system/framework/hwServices.jar:/system/framework/hwWifi-service.jar:/system/framework/hwcustServices.jar:/system/framework/hwcustwifi-service.jar', 'OEM_ROOT': '/hw_oem', 'CUST_POLICY_DIRS': '/system/emui/base:/system/emui/oversea:/system/emui:/system/global:/system/etc:/hw_oem:/cust/hw/normal:/data/cust:/cust_spec', 'ANDROID_PROPERTY_WORKSPACE': '11,0', 'ANDROID_SOCKET_zygote_secondary': '12', 'ANDROID_ENTRYPOINT': 'main.pyc', 'ANDROID_ARGUMENT': '/data/user/0/org.test.shepherdcrook/files/app', 'ANDROID_APP_PATH': '/data/user/0/org.test.shepherdcrook/files/app', 'ANDROID_PRIVATE': '/data/user/0/org.test.shepherdcrook/files', 'ANDROID_UNPACK': '/data/user/0/org.test.shepherdcrook/files/app', 'PYTHONHOME': '/data/user/0/org.test.shepherdcrook/files/app', 'PYTHONPATH': '/data/user/0/org.test.shepherdcrook/files/app:/data/user/0/org.test.shepherdcrook/files/app/lib', 'PYTHONOPTIMIZE': '2', 'P4A_BOOTSTRAP': 'SDL2', 'PYTHON_NAME': 'python', 'P4A_IS_WINDOWED': 'True', 'P4A_ORIENTATION': 'portrait', 'P4A_NUMERIC_VERSION': 'None', 'P4A_MINSDK': '21', 'LC_CTYPE': 'C.UTF-8'})
+02-26 01:14:57.529   692   722 I python  : Android kivy bootstrap done. __name__ is __main__
+02-26 01:14:57.529   692   722 I python  : AND: Ran string
+02-26 01:14:57.529   692   722 I python  : Run user program, change dir and execute entrypoint
+02-26 01:14:57.777   692   722 I python  : [INFO   ] [Logger      ] Record log in /data/user/0/org.test.shepherdcrook/files/app/.kivy/logs/kivy_20-02-26_1.txt
+02-26 01:14:57.777   692   722 I python  : [INFO   ] [Kivy        ] v1.11.1
+02-26 01:14:57.778   692   722 I python  : [INFO   ] [Kivy        ] Installed at "/data/user/0/org.test.shepherdcrook/files/app/_python_bundle/site-packages/kivy/__init__.pyc"
+02-26 01:14:57.779   692   722 I python  : [INFO   ] [Python      ] v3.7.1 (default, Feb 10 2020, 18:57:16) 
+02-26 01:14:57.779   692   722 I python  : [Clang 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec7462
+02-26 01:14:57.779   692   722 I python  : [INFO   ] [Python      ] Interpreter at "android_python"
+02-26 01:14:57.790   692   722 I python  : [INFO   ] [Factory     ] 184 symbols loaded
+02-26 01:14:58.527  2576  2589 I PerfService: PerfServiceNative_getPackName
+02-26 01:14:59.527  2576  2589 I PerfService: PerfServiceNative_getPackName
+02-26 01:14:59.587   692   722 I python  : [INFO   ] [KivyMD      ] v0.103.0
+02-26 01:14:59.741   692   722 I python  : [INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+02-26 01:14:59.865   692   722 I python  : [INFO   ] [Window      ] Provider: sdl2
+02-26 01:14:59.895   692   722 E libEGL  : validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-26 01:14:59.896   692   722 V SDL     : setOrientation() orientation=-1 width=800 height=600 resizable=true hint=
+02-26 01:14:59.897  1202  2528 I PowerManagerService: setBrightness mButtonLight 0.
+02-26 01:14:59.899   692   722 D Surface : Surface::setBuffersUserDimensions(this=0xda0c2000,w=0,h=0)
+02-26 01:14:59.899   692   722 D Surface : Surface::connect(this=0xda0c2000,api=1)
+02-26 01:14:59.899   692   722 W libEGL  : [ANDROID_RECORDABLE] format: 1
+02-26 01:14:59.900   692   722 D mali_winsys: new_window_surface returns 0x3000
+02-26 01:14:59.904   692   722 I python  : [INFO   ] [GL          ] Using the "OpenGL ES 2" graphics system
+02-26 01:14:59.906   692   722 I python  : [INFO   ] [GL          ] Backend used <sdl2>
+02-26 01:14:59.906   692   722 I python  : [INFO   ] [GL          ] OpenGL version <b'OpenGL ES 3.1 v1.r7p0-02rel0.4ea33e6671ff828e33c99c982634cd65'>
+02-26 01:14:59.907   692   722 I python  : [INFO   ] [GL          ] OpenGL vendor <b'ARM'>
+02-26 01:14:59.907   692   722 I python  : [INFO   ] [GL          ] OpenGL renderer <b'Mali-T720'>
+02-26 01:14:59.907   692   722 I python  : [INFO   ] [GL          ] OpenGL parsed version: 3, 1
+02-26 01:14:59.908   692   722 I python  : [INFO   ] [GL          ] Texture max size <8192>
+02-26 01:14:59.908   692   722 I python  : [INFO   ] [GL          ] Texture max units <16>
+02-26 01:14:59.944   692   722 I python  : [INFO   ] [Window      ] auto add sdl2 input provider
+02-26 01:14:59.945   692   722 I python  : [INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+02-26 01:14:59.964   692   722 I python  : [INFO   ] [Text        ] Provider: sdl2
+02-26 01:15:00.019  2074  2074 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000114 (has extras) }
+02-26 01:15:00.019  2074  2074 I HwLauncher: Model  onReceive user=UserHandle{0}
+02-26 01:15:00.019  2074  2074 D ActivityThread: BDC-Calling finishReceiver: IIntentReceiver=7819c5f
+02-26 01:15:00.022  2074  2074 D ActivityThread: BDC-Calling finishReceiver: IIntentReceiver=4eb6ac
+02-26 01:15:00.044  2074  2074 D ActivityThread: BDC-Calling finishReceiver: IIntentReceiver=5afa9b6
+02-26 01:15:00.189   692   722 I python  : [INFO   ] [GL          ] NPOT texture support is available
+02-26 01:15:00.528  2576  2589 I PerfService: PerfServiceNative_getPackName
+02-26 01:15:00.704   692   722 I python  :  Traceback (most recent call last):
+02-26 01:15:00.704   692   722 I python  :    File "/mnt/369071E49071AB4F/MyLab/Space/project_box/cam_detection/.buildozer/android/app/main.py", line 21, in <module>
+02-26 01:15:00.705   692   722 I python  :    File "/mnt/369071E49071AB4F/MyLab/Space/project_box/cam_detection/.buildozer/android/platform/build-armeabi-v7a/build/python-installs/ShepherdCrook/face_recognition/__init__.py", line 7, in <module>
+02-26 01:15:00.705   692   722 I python  :    File "/mnt/369071E49071AB4F/MyLab/Space/project_box/cam_detection/.buildozer/android/platform/build-armeabi-v7a/build/python-installs/ShepherdCrook/face_recognition/api.py", line 4, in <module>
+02-26 01:15:00.706   692   722 I python  :  ModuleNotFoundError: No module named 'dlib'
+02-26 01:15:00.706   692   722 I python  : Python for android ended.
+02-26 01:15:00.831   692   722 D MALI    : osup_destructor:171: osup_destructor
